@@ -1,6 +1,8 @@
-Spring with Swagger example
+Spring 4 with Swagger example
 =================
 This project is a simple example of integration of Swagger with Spring application (with Jersey 2).
+
+Due to some issues with updating the dependencies used in my project [Spring with Swagger](https://github.com/JakubStas/SpringWithSwagger) reported by user pashtika I decided to create this separate project to provide distinct solutions for both Spring 3 and Spring 4.
 
 About
 -----
@@ -18,6 +20,6 @@ Try it out!
 
 Check following URLs (running this example on your localhost):
 
-1. [Swagger API listing](http://localhost:8080/SpringWithSwagger/rest/api-docs/)
-2. [Swagger API documentation](http://localhost:8080/SpringWithSwagger/rest/api-docs/products)
-3. [Swagger UI](http://localhost:8080/SpringWithSwagger/apidocs/)
+1. [Swagger API listing](http://localhost:8080/Spring4WithSwagger/rest/api-docs/)
+2. [Swagger API documentation](http://localhost:8080/Spring4WithSwagger/rest/api-docs/products)
+3. [Swagger UI](http://localhost:8080/Spring4WithSwagger/apidocs/)
