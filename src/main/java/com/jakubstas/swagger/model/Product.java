@@ -22,7 +22,7 @@ public class Product {
     private final String oneToBeHidden = "hiddenOne";
 
     @ApiModelProperty(required = true)
-    @XmlElement(name = "name", nillable = false, required = true)
+    @XmlElement(name = "name", nillable = false, required = true, namespace = "com.jakubstas.swagger")
     public String getName() {
         return name;
     }
@@ -32,7 +32,7 @@ public class Product {
     }
 
     @ApiModelProperty(required = true)
-    @XmlElement(name = "code", nillable = false, required = true)
+    @XmlElement(name = "code", nillable = false, required = true, namespace = "com.jakubstas.swagger")
     public String getCode() {
         return code;
     }
@@ -42,7 +42,7 @@ public class Product {
     }
 
     @ApiModelProperty(required = true)
-    @XmlElement(name = "description", nillable = false, required = true)
+    @XmlElement(name = "description", nillable = false, required = true, namespace = "com.jakubstas.swagger")
     public String getDescription() {
         return description;
     }

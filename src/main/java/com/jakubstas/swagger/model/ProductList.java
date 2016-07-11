@@ -24,7 +24,7 @@ public class ProductList {
     }
 
     @ApiModelProperty(required = true, position = 1)
-    @XmlElement(name = "product", required = true)
+    @XmlElement(name = "product", required = true, namespace = "com.jakubstas.swagger")
     public List<Product> getProducts() {
         return products;
     }
