@@ -1,5 +1,19 @@
-/target/
-/.settings/
-/.classpath
-/.project
-/.springBeans
+*.class
+
+# Package Files #
+*.jar
+*.war
+
+# project files #
+*.iml
+*.log
+.project
+.classpath
+.settings/
+.idea/
+target/
+log/
+logs/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
